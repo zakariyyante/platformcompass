@@ -11,11 +11,18 @@ export default function Hero() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
       
       <div className="container mx-auto px-4 relative z-10 text-center">
-        <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-slate-900 border border-primary/20 mb-10 shadow-xl">
+        <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-slate-900 border border-primary/20 mb-6 shadow-xl">
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
           <span className="text-xs font-bold uppercase tracking-[0.3em] text-slate-300">
             UK&apos;s Premier Review Hub {year}
           </span>
+        </div>
+
+        <div className="flex justify-center mb-10">
+          <div className="flex items-center gap-3 px-4 py-1.5 rounded-full bg-red-600/10 border border-red-600/20">
+            <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.2em]">18+ Disclaimer:</span>
+            <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.1em]">Use platforms responsibly & at your own risk</span>
+          </div>
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 tracking-tight text-white">
