@@ -1,0 +1,17 @@
+<svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Icon -->
+  <path d="M50 20C50 20 80 20 100 30C120 40 120 80 120 80C120 110 90 140 75 150C60 140 30 110 30 80C30 80 30 40 50 30C70 20 50 20 50 20Z" fill="#00D4FF"/>
+  <path d="M75 50L60 90H75L65 130L90 80H75L85 50H75Z" fill="#FFB800"/>
+  
+  <!-- Wordmark -->
+  <text x="140" y="85" font-family="Arial, sans-serif" font-weight="900" font-size="60">
+    <tspan fill="#FFB800">PLATFORM</tspan>
+    <tspan fill="#00D4FF">UK</tspan>
+    <tspan fill="#FFFFFF">COMPASS</tspan>
+  </text>
+  
+  <!-- Sub-line -->
+  <text x="140" y="125" font-family="Arial, sans-serif" font-weight="500" font-size="16" letter-spacing="0.4em" fill="#94A3B8">
+    PLATFORMCOMPASS.ORG
+  </text>
+</svg>
