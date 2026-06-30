@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import "./globals.css";
+import TopBar from "./components/TopBar";
 
 const GA_MEASUREMENT_ID = "G-XXXXXXXXXX"; // Placeholder
 const CONVERSION_LABEL = "AW-XXXXXXXXXX/XXXXXXXXXX"; // Placeholder
@@ -55,6 +56,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="antialiased bg-background text-white min-h-screen flex flex-col">
+        <TopBar />
         {children}
         <Analytics />
       </body>
